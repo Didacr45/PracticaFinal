@@ -1,0 +1,153 @@
+  /* Reset i tipografia bàsica */
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  header {
+    background: linear-gradient(45deg, #003B73, #A50044);
+    color: rgb(251, 251, 251);
+    padding: 1em;
+    text-align: center;
+  }
+    
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-menu li {
+    margin: 0 1em;
+  }
+
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .nav-menu a:hover,
+  .nav-menu a.active {
+    background-color:rgb(255, 255, 255) ;
+    color: #000000;
+  }
+
+  .hero {
+    background: linear-gradient(45deg, #cfcc21, #ff0404, #cfcc21); ;
+    color: white;
+    padding: 349px;
+    text-align: center;
+  }
+
+  .noticies, .resultats, .productes {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    
+  }
+  
+
+  .producte {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+    
+  }
+
+  .producte:hover {
+    transform: scale(1.02);
+    
+  }
+
+  .productes {
+    display: flex;                   
+    justify-content: flex-start;     
+    gap: 20px;                       
+    overflow-x: auto;                
+    white-space: nowrap;            
+  }
+
+
+  .producte {
+    display: flex;                   
+    flex-direction: column;         
+    align-items: center;             
+    border: 1px solid #ccc;          
+    padding: 10px;                  
+    min-width: 280px;                
+    max-width: 400px;                
+    box-sizing: border-box;          
+  }
+
+
+  .producte img {
+    width: 100%;                    
+    height: auto;                    
+    max-width: 400px;                
+    min-width: 280px;                
+  }
+
+
+
+  .resultats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.resultat {
+  border: 2px solid #004d98; 
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  width: 715px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.resultat img {
+  border-radius: 8px;
+}
+
+.resultat h3 {
+  color: #a50044; 
+  margin-top: 10px;
+}
+
+.resultat p {
+  font-size: 0.95em;
+}
+
+
+
+  /* Animació */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .productes {
+      display: flex;
+      flex-direction: column;
+    }
+  }
