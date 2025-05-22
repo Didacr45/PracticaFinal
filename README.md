@@ -37,13 +37,13 @@
 ##  Captures de pantalla
 
 ### Inici
-![Captura Inici](Capturas de pantalla/inici.png)
+![Captura Inici](Capturasdepantalla/inici.png)
 
 ### Resultats
-![Captura Resultats](Capturas de pantalla/resultats.png)
+![Captura Resultats](Capturasdepantalla/resultats.png)
 
 ###  Botiga
-![Captura Botiga](Capturas de pantalla/botiga.png)
+![Captura Botiga](Capturasdepantalla/botiga.png)
 
 ---
 
